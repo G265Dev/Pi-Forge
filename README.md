@@ -17,7 +17,7 @@ To learn more vist our <a href="https://github.com/G265Dev/Pi-Forge/wiki/New-Stu
 
 **Look at our wiki**
 
-<a href="https://github.com/G265Dev/Pi-Forge/wiki" alt="Pi-Forge wiki">The Pi-Ware wiki</a>
+<a href="https://github.com/G265Dev/Pi-Forge/wiki" alt="Pi-Forge wiki">The Pi-Forge wiki</a>
 
 </div>
   
