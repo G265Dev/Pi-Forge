@@ -19,19 +19,11 @@ To learn more vist our <a href="https://github.com/piware14/pi-ware/wiki/new-stu
 
 <a href="https://github.com/piware14/pi-ware/wiki/" alt="Pi-Ware wiki">The Pi-Ware wiki</a>
 
-**Look at our website**:
-
-<a href="https://pi-ware.ml/" alt="Pi-Ware website">The Pi-Ware website</a>
-
-**Current app list**
-
-<a href="https://pi-ware.ml/current-apps/" alt="App list">App list</a>
-
 </div>
   
-# How to install and use Pi-Ware
+# How to install and use Pi-Forge
 
-## Install Pi-Ware
+## Install Pi-Forge
 ```sh
 sudo apt update
 sudo apt install python3
@@ -45,15 +37,15 @@ cd pi-ware
 bash install
 ```
 
-## Update Pi-Ware
-Pi-Ware will automatically fetch and install updates, and tell you to restart it to apply them.
+## Update Pi-Forge
+Pi-Forge will automatically fetch and install updates, and tell you to restart it to apply them.
 
 If you want to force update pi-ware, run
 ```sh
 pi-ware --update --force
 ```
 
-## Uninstall Pi-Ware
+## Uninstall Pi-Forge
 ```sh
 cd $HOME/pi-ware
 bash uninstall
@@ -61,4 +53,4 @@ bash uninstall
 
 Thanks to https://www.logodesign.net/ for providing our logo!
 
-Enjoy Pi-Ware
+Enjoy Pi-Forge
