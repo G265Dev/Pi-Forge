@@ -5,7 +5,7 @@ Pi-Forge is a community-driven continuation of Pi-Ware. Pi-Ware is an app store 
   
 # NEW:
 
-We have added the ability to add website links in your app!
+We have added some new stuff go have a look!
 
 To learn more vist our <a href="https://github.com/G265Dev/Pi-Forge/wiki/New-Stuff" alt="Pi-Forge wiki">wiki</a>!
   
