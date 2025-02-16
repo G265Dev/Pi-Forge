@@ -33,6 +33,12 @@ To learn more vist our <a href="https://github.com/piware14/pi-ware/wiki/new-stu
 
 ## Install Pi-Ware
 ```sh
+sudo apt update
+sudo apt install python3
+sudo apt install python3-pip
+sudo apt install python3-tk
+sudo apt install python3-ttkthemes
+sudo apt install python3-screeninfo
 git clone https://github.com/piware14/pi-ware.git
 cd pi-ware
 bash install
