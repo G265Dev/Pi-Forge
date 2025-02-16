@@ -39,7 +39,7 @@ sudo apt install python3-pip
 sudo apt install python3-tk
 sudo apt install python3-ttkthemes
 sudo apt install python3-screeninfo
-git clone https://github.com/piware14/pi-ware.git
+git clone https://github.com/G265Dev/Pi-Forge.git
 cd pi-ware
 bash install
 ```
