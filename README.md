@@ -51,6 +51,6 @@ cd $HOME/pi-ware
 bash uninstall
 ```
 
-Thanks to https://www.logodesign.net/ for providing our logo!
+Thanks to https://chatgpt.com/ for providing our logo!
 
 Enjoy Pi-Forge
