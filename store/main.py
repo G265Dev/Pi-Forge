@@ -320,21 +320,21 @@ commitmessage = Label(credits_tab, text=f"To see commits, please go to the link 
 commitmessage.config(justify=tk.CENTER)
 commitmessage.pack()
 
-commit = Label(credits_tab, text="https://github.com/piware14/pi-ware/graphs/contributors",font=('Arial', 9), cursor="hand2")
+commit = Label(credits_tab, text="https://github.com/G265Dev/Pi-Forge/graphs/contributors",font=('Arial', 9), cursor="hand2")
 s.configure(commit, foreground='blue')
 commit.pack()
 commit.bind("<Button-1>", lambda e:
-callback("https://github.com/piware14/pi-ware/graphs/contributors"))
+callback("https://github.com/G265Dev/Pi-Forge/graphs/contributors"))
 
 #Add pi-ware website
-piwarewebsite = Label(credits_tab, text=f"To vist the pi-ware website, click the link below.", font="Arial 11 bold")
+piwarewebsite = Label(credits_tab, text=f"To vist the Pi-Forge Github, click the link below.", font="Arial 11 bold")
 piwarewebsite.config(justify=tk.CENTER)
 piwarewebsite.pack()
-Website = Label(credits_tab, text="https://pi-ware.ml",font=('Arial', 9), cursor="hand2")
+Website = Label(credits_tab, text="https://github.com/G265Dev/Pi-Forge",font=('Arial', 9), cursor="hand2")
 s.configure(Website, foreground='blue')
 Website.pack()
 Website.bind("<Button-1>", lambda e:
-callback("https://pi-ware.ml"))
+callback("https://github.com/G265Dev/Pi-Forge"))
 
 tree = Treeview(apps_tab)
 vsb = Scrollbar(window, orient="vertical", command=tree.yview)
