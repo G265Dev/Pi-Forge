@@ -17,5 +17,6 @@
   "PyEncrypter" : "all",
   "WebAppMaker": "all",
   "Runelite": "all",
+  "PiKiss": "armhf",
   "Webcord": "armhf"
 }
