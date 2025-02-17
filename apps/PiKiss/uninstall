@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rm -r $HOME/piKiss/
+sudo rm -rf $HOME/.local/share/applications/pikiss.desktop
