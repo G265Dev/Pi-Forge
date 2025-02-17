@@ -1,0 +1,1 @@
+Minetest is a free, open-source sandbox game where players explore, build, and modify blocky 3D worlds, with support for mods and multiplayer.
