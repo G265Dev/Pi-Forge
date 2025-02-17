@@ -40,7 +40,7 @@ bash install
 ## Update Pi-Forge
 Pi-Forge will automatically fetch and install updates, and tell you to restart it to apply them.
 
-If you want to force update pi-ware, run
+If you want to force update Pi-Forge, run
 ```sh
 pi-ware --update --force
 ```
