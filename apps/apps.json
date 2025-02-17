@@ -18,5 +18,6 @@
   "WebAppMaker": "all",
   "Runelite": "all",
   "PiKiss": "armhf",
+  "Minetest": "armhf",
   "Webcord": "armhf"
 }
