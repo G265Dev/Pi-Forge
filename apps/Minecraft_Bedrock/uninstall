@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#Deleting game files
+rm -r $HOME/games/Minecraft-Bedrock-For-Linux/
+sudo rm -rf $HOME/.local/share/applications/Minecraft-Bedrock-For-Linux.desktop

@@ -1,0 +1,25 @@
+#!/bin/bash
+cd $HOME
+mkdir games
+cd games
+sudo apt update
+sudo apt install fuse
+
+#Download
+git clone https://github.com/G265Dev/Minecraft-Bedrock-For-Linux.git
+cd Minecraft-Bedrock-For-Linux
+cat Minecraft_Bedrock_Launcher-arm.0.0.617.part-* > Minecraft_Bedrock_Launcher-arm.0.0.617.AppImage
+rm Minecraft_Bedrock_Launcher-arm.0.0.617.part-aa Minecraft_Bedrock_Launcher-arm.0.0.617.part-ab Minecraft_Bedrock_Launcher-arm.0.0.617.part-ac Minecraft_Bedrock_Launcher-arm.0.0.617.part-ad
+chmod +x Minecraft_Bedrock_Launcher-arm.0.0.617.AppImage
+
+#Desktop shortcut
+echo "[Desktop Entry]
+Name=Minecraft Bedrock Launcher
+Comment=Unofficial Minecraft Bedrock Launcher for Linux
+Icon=$HOME/games/Minecraft-Bedrock-For-Linux/logo.png
+Exec=$HOME/games/Minecraft-Bedrock-For-Linux/Minecraft_Bedrock_Launcher-arm.0.0.617.AppImage
+Path=$HOME/games/Minecraft-Bedrock-For-Linux
+Type=Application
+Encoding=UTF-8
+Categories=Game;
+Terminal=false" > "$HOME/.local/share/applications/Minecraft-Bedrock-For-Linux.desktop"

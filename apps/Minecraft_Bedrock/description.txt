@@ -1,0 +1,7 @@
+Unofficial launcher for Minecraft Bedrock edition
+NOTE: For better performance and smooth FPS, we recommend an older Bedrock version like 1.16.40 as it doesn't contain renderdragon or RTX code.
+
+ ∙ Sign in with a Google Play account with Minecraft purchased (if login does not work, close and re-open the application)
+ ∙ Active comunity to ask for help
+
+To run: Menu -> Games -> Minecraft Bedrock Launcher
