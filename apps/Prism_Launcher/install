@@ -2,7 +2,10 @@
 version=9.0-1
 
 sudo apt update
-sudo apt install mesa-utils temurin-8-jre temurin-17-jre temurin-21-jre
+sudo apt install mesa-utils
+sudo apt install temurin-21-jre
+sudo apt install temurin-17-jre
+sudo apt install temurin-8-jre
 
 cd $HOME
 cd Downloads
