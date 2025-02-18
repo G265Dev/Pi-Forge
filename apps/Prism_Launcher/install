@@ -1,0 +1,15 @@
+#!/bin/bash
+version=9.0-1
+
+sudo apt update
+sudo apt install mesa-utils temurin-8-jre temurin-17-jre temurin-21-jre
+
+cd $HOME
+cd Downloads
+wget https://github.com/Pi-Apps-Coders/files/releases/download/large-files/prismlauncher_9.0-1_armhf.deb
+sudo dpkg -i prismlauncher_9.0-1_armhf.deb
+rm prismlauncher_9.0-1_armhf.deb
+
+
+#add the MESA override to the .desktop file
+sudo sed -i "s:^Exec=prismlauncher:Exec=env MESA_GL_VERSION_OVERRIDE=3.3 prismlauncher:g" /usr/share/applications/org.prismlauncher.PrismLauncher.desktop

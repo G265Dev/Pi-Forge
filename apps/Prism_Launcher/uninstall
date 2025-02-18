@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sudo apt remove mesa-utils
+sudo apt remove temurin-21-jre
+sudo apt remove temurin-17-jre
+sudo apt remove temurin-8-jre
+sudo apt remove prismlauncher
