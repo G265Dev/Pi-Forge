@@ -1,7 +1,12 @@
 #!/bin/bash
 
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://packages.adoptium.net/artifactory/api/gpg/key/public | sudo tee /etc/apt/keyrings/adoptium.asc
+echo "deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/adoptium.list
 sudo apt update
 sudo apt install mesa-utils
+sudo apt install temurin-17-jre
+sudo apt install temurin-8-jre
 cd $HOME
 cd Downloads
 wget https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm32-1.1.30-setup.deb
