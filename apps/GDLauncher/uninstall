@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo apt remove mesa-utils
+sudo apt remove gdlauncher

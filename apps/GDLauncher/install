@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sudo apt update
+sudo apt install mesa-utils
+cd $HOME
+cd Downloads
+wget https://github.com/Pi-Apps-Coders/files/releases/download/large-files/GDLauncher-linux-arm32-1.1.30-setup.deb
+sudo dpkg -i GDLauncher-linux-arm32-1.1.30-setup.deb
+rm GDLauncher-linux-arm32-1.1.30-setup.deb
+
+#add the MESA override to the .desktop file
+sudo sed -i "s:^Exec=/opt/GDLauncher/gdlauncher:Exec=env MESA_GL_VERSION_OVERRIDE=3.3 /opt/GDLauncher/gdlauncher:g" /usr/share/applications/gdlauncher.desktop
+
+
