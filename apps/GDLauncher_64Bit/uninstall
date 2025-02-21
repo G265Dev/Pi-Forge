@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sudo apt remove gdlauncher
+sudo apt remove mesa-utils
+sudo apt remove temurin-17-jre
+sudo apt remove temurin-8-jre
+sudo rm /etc/apt/sources.list.d/adoptium.list
+sudo rm /etc/apt/keyrings/adoptium.asc
+sudo apt update

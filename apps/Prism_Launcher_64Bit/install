@@ -1,0 +1,20 @@
+#!/bin/bash
+version=9.0-1
+
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://packages.adoptium.net/artifactory/api/gpg/key/public | sudo tee /etc/apt/keyrings/adoptium.asc
+echo "deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/adoptium.list
+sudo apt update
+sudo apt install mesa-utils
+sudo apt install temurin-17-jre
+sudo apt install temurin-8-jre
+
+cd $HOME
+cd Downloads
+wget https://github.com/Pi-Apps-Coders/files/releases/download/large-files/prismlauncher_9.0-1_arm64.deb
+sudo dpkg -i prismlauncher_9.0-1_arm64.deb
+rm prismlauncher_9.0-1_arm64.deb
+
+
+#add the MESA override to the .desktop file
+sudo sed -i "s:^Exec=prismlauncher:Exec=env MESA_GL_VERSION_OVERRIDE=3.3 prismlauncher:g" /usr/share/applications/org.prismlauncher.PrismLauncher.desktop
