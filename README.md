@@ -26,6 +26,7 @@ To learn more vist our <a href="https://github.com/G265Dev/Pi-Forge/wiki/New-Stu
 ## Install Pi-Forge
 ```sh
 sudo apt update
+sudo apt upgrade
 sudo apt install python3
 sudo apt install python3-pip
 sudo apt install python3-tk
