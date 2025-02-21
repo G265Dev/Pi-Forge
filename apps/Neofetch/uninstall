@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo apt remove neofetch
+sudo apt remove pciutils
+sudo rm -rf /usr/bin/neofetch /usr/man1/neofetch.1*
