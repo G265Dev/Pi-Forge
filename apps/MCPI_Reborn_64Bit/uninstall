@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo rm -r $HOME/games/mcpi/
+sudo rm -f /$HOME/.local/share/applications/Minecraft-Pi-Reborn.desktop

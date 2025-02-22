@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cd $HOME
+mkdir games
+cd games
+mkdir mcpi
+cd mcpi
+wget https://gitea.thebrokenrail.com/minecraft-pi-reborn/minecraft-pi-reborn/releases/download/2.5.3/minecraft-pi-reborn-client-2.5.3-armhf.AppImage
+wget https://storage.googleapis.com/replit/images/1643861210507_7e72f3b58d546a984fbff77cba15b243.png
+mv 1643861210507_7e72f3b58d546a984fbff77cba15b243.png icon.png
+chmod +x minecraft-pi-reborn-client-2.5.3-armhf.AppImage
+
+#Desktop shortcut
+echo "[Desktop Entry]
+Name=Minecraft Pi Reborn
+Comment=Minecraft for raspberry pi
+Icon=$HOME/games/mcpi/icon.png
+Exec=$HOME/games/mcpi/minecraft-pi-reborn-client-2.5.3-armhf.AppImage
+Path=$HOME/games/mcpi/
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=Game;" | sudo tee /$HOME/.local/share/applications/Minecraft-Pi-Reborn.desktop
+

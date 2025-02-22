@@ -1,0 +1,4 @@
+FOR ARM32
+A modded version of Minecraft: Pi Edition with things like survival mode, multiplayer support, and more!
+
+To run: Menu -> Games -> Minecraft Pi Reborn
