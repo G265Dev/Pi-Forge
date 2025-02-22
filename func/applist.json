@@ -32,10 +32,6 @@
         "author": "@gl91306 and @oxmc"
     },
     {
-        "name": "MCPI_Modded",
-        "author": "@mobilegmYT"
-    },
-    {
         "name": "Mari0",
         "author": "@IsaacMvmv"
     },
@@ -93,6 +89,14 @@
     },
     {
         "name": "Neofetch",
+        "author": "@G265Dev"
+    },
+    {
+        "name": "Flameshot",
+        "author": "@G265Dev"
+    },
+    {
+        "name": "Flameshot_64Bit",
         "author": "@G265Dev"
     },
     {
