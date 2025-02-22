@@ -1,0 +1,9 @@
+#!/bin/bash
+
+version=12.1.0
+
+cd $HOME
+cd Downloads
+wget https://github.com/flameshot-org/flameshot/releases/download/v12.1.0/flameshot-12.1.0-1.debian-10.armhf.deb
+sudo dpkg -i flameshot-12.1.0-1.debian-10.armhf.deb
+rm flameshot-12.1.0-1.debian-10.armhf.deb
