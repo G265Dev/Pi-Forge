@@ -24,8 +24,6 @@
   "GDLauncher_64Bit": "arm64",
   "Prism_Launcher_64Bit": "arm64",
   "Legcord_64Bit": "arm64",
-  "Flameshot_64Bit": "arm64",
-  "Flameshot": "armhf",
   "Neofetch": "all",
   "Webcord": "armhf"
 }
