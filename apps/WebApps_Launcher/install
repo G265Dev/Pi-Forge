@@ -4,19 +4,24 @@ sudo apt update
 sudo apt install unzip -y
 
 cd $HOME
-git clone https://github.com/G265Dev/WebApps-Launcher.git
-cd WebApps-Launcher
+git clone https://github.com/G265Dev/WebApps.git
+cd WebApps
 unzip webapps.zip
 cd webapps
 chmod +x webapps.sh
 rm -f webapps.desktop
 
+# Create the .desktop entry
+cat <<EOF > "$HOME/.local/share/applications/WebApps-Launcher.desktop"
 [Desktop Entry]
 Version=1.0
 Name=WebApps-Launcher
 Comment=Web applications launcher
-Categories=Network;WebBrowser;
-Exec=$HOME/WebApps-Launcher/webapps/webapps.sh
-Icon=$HOME/WebApps-Launcher/webapps/icons/webapps.png
+Exec=$HOME/WebApps/webapps/webapps.sh
+Icon=$HOME/WebApps/webapps/icons/webapps.png
 Type=Application
-Terminal=false" > "$HOME/.local/share/applications/WebApps-Launcher.desktop"
+Terminal=false
+Categories=Network;WebBrowser;
+EOF
+
+

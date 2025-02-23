@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -r $HOME/WebApps-Launcher/
+sudo rm -r $HOME/WebApps/
 sudo rm -rf $HOME/.local/share/applications/WebApps-Launcher.desktop
