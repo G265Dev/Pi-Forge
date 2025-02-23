@@ -25,13 +25,12 @@ To learn more vist our <a href="https://github.com/G265Dev/Pi-Forge/wiki/New-Stu
 
 ## Install Pi-Forge
 ```sh
-sudo apt update
-sudo apt upgrade
-sudo apt install python3
-sudo apt install python3-pip
-sudo apt install python3-tk
-sudo apt install python3-ttkthemes
-sudo apt install python3-screeninfo
+sudo apt update && sudo apt upgrade -y
+sudo apt install python3 -y
+sudo apt install python3-pip -y
+sudo apt install python3-tk -y
+sudo apt install python3-ttkthemes -y
+sudo apt install python3-screeninfo -y
 git clone https://github.com/G265Dev/Pi-Forge.git
 mv Pi-Forge pi-ware
 cd pi-ware
