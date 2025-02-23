@@ -5,9 +5,10 @@ sudo mkdir -p /etc/apt/keyrings
 curl -fsSL https://packages.adoptium.net/artifactory/api/gpg/key/public | sudo tee /etc/apt/keyrings/adoptium.asc
 echo "deb [signed-by=/etc/apt/keyrings/adoptium.asc] https://packages.adoptium.net/artifactory/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/adoptium.list
 sudo apt update
-sudo apt install mesa-utils
-sudo apt install temurin-17-jre
-sudo apt install temurin-8-jre
+sudo apt install mesa-utils -y
+sudo apt install temurin-17-jre -y
+sudo apt install temurin-8-jre -y
+sudo apt install temurin-21-jre -y
 
 cd $HOME
 cd Downloads

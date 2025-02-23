@@ -2,6 +2,7 @@
 
 sudo apt remove prismlauncher
 sudo apt remove mesa-utils
+sudo apt remove temurin-21-jre
 sudo apt remove temurin-17-jre
 sudo apt remove temurin-8-jre
 sudo rm /etc/apt/sources.list.d/adoptium.list
