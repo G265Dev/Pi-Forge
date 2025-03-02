@@ -1,0 +1,1 @@
+Bolt is foss allowing you to play runescape on linux now you need to use jagex launcher to play. FLATPAK IS NEEDED TO INSTALL THIS!
